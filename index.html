@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codigo QR con JS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="estilos.css" />
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    
+    <div class="contenedor">
+        <h1 class="titulo">Kailo QR</h1>
+        <form action="" class="formulario" id="formulario">
+            <input type="text" id="link" placeholder="Escribe tu enlace">
+            <button class="btn">Generar QR</button>
+        </form>
+        <div id="contenedorQR" class="contenedorQR">
+        </div>
+    </div>
+
+</body>
+</html>
